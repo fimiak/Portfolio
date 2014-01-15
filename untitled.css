@@ -1,0 +1,444 @@
+::selection {
+	color: #000; background-color: #ffcc99;
+}
+
+html, body, div, span, h1, h2, img, p, a, footer, header, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body {
+	background: #111;
+	color: #48556d;
+	font-family: 'Quando', serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.clear {
+	clear: both;
+}
+
+ul {
+	list-style: none;
+}
+
+div.container {
+	margin: 0 auto;
+	max-width: 920px;
+	width: 90%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
+a {
+	color: #666;
+}
+
+a:link { 
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+a.button {
+	background: #e34234;
+	border-radius: 30px;
+	color: white;
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+/*Navigation*/
+
+
+p {
+	line-height: 1.3em;
+}
+
+header {
+	background: url('header.jpg') no-repeat top center #333;
+	background-size: cover;
+	position: relative;
+	padding: 40px 0 50px 0;
+}
+
+header div#texture {
+	background: url('header_texture.png');
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: absolute;
+	z-index: 0;
+}
+
+header h1, header nav {
+	position: relative;
+	z-index: 2;
+}
+
+header h1 {
+	width: 36px;
+}
+
+header h1 a {
+	background: url('icons.png') no-repeat center center;
+	background-size: 100% auto;
+	display: block;
+	height: 44px;
+	text-indent: -999px;
+	width: 36px;
+}
+
+header nav {
+	display: block;
+	float: right;
+	text-align: right;
+}
+
+header nav li {
+	display: inline-block;
+}
+
+header nav li a {
+	display: block;
+	color: #000;
+	line-height: 1.5em;
+	margin: 6px 0 0 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header nav li a#contact {
+	background: #e34234;
+	border-radius: 30px;
+	padding: 7px 16px 5px 16px;
+}
+
+header nav li a:active {
+	border-bottom: 2px solid rgba(0,0,0, 0.5);
+	border-bottom: 2px solid black;
+}
+
+body.home header {
+	min-height: 460px;
+}
+
+body.home header div.container div {
+	color: white;
+	padding: 110px 0 0 14%;
+	position: relative;
+	z-index: 2;
+}
+
+
+body.home header h2 {
+	font-size: 250%;
+	font-weight: bold;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+	margin: 30px 0 5px 0;
+}
+
+body.home header p {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	font-size: 120%;
+	margin: 0 0 0 210px;
+	max-width: 420px;
+	padding: 0 0 20px 0;
+}
+
+.rings {
+	background: url('me.jpg') no-repeat center center;
+	border-radius: 50%;
+	float: left;
+	background-size: 100%;
+	margin-right: 20px;
+}
+
+/*About*/
+
+section#about {
+	background: #eee;
+	padding: 50px 0;
+	text-align: center;
+}
+
+section#about p {
+	font-size: 120%;
+}
+
+section#about a.button {
+	margin-top: 25px;
+}
+
+section#about {
+	background-position: 9% center;
+	box-shadow: 0 -130px 0 0 rgba(255, 255,255 0.5) inset;
+	min-height: 0;
+}
+
+section#about div.container {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+section#about h1 {
+	padding: 200px 0 0 0;
+}
+
+
+/*Work*/
+
+section#work {
+	padding: 85px 0 20px 0;
+	text-align: center;
+}
+
+section#work h2 {
+	font-size: 160%;
+	margin: 0 0 35px 0;
+}
+
+section#work h2 span {
+	display: inline-block;
+	height: 25px;
+	margin: 0 0 0 6px;
+	text-indent: -9999px;
+	vertical-align: text-top;
+	width: 100px;
+
+}
+section#work div#!!!!! + a.button {
+	clear: both;
+	margin-top: 30px;
+}
+
+section#work div#github {
+	background: #222;
+	text-align: center;
+}
+
+section#work div#github div.container {
+	max-width: 1200px;
+	width: 100%;
+}
+
+section#work div#github a {
+	display: block;
+	float: left;
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	width: 33.3333%;
+}
+
+section#work div#github a img {
+	margin: 0;
+	width: 100%;
+}
+
+section#work div#github a span {
+	background: rgba(0,0,0, 0.8);
+	bottom: -100px;
+	color: white;
+	display: block;
+	left: 0;
+	line-height: 1.1em;
+	padding: 20px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	-webkit-transition: 0.15s bottom ease-out;
+}
+
+section#work div#github a b {
+	white-space: nowrap;
+}
+
+section#work div#github a span strong {
+	background: url('icons.png') no-repeat -384px 50%;
+	background-size: auto 200%;
+	display: inline-block;
+	height: 20px;
+	opacity: 0.8;
+	vertical-align: bottom;
+	width: 20px;
+}
+
+section#work div#github a:hover {
+	opacity: 1;
+}
+
+section#work div#github a:hover span {
+	bottom: 0;
+}
+
+section#work div#github + a.button {
+	clear: both;
+	margin-top: 30px;
+}
+/* Bar */
+
+section#graphic {
+	background: url('header.jpg') no-repeat top center #333;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 40px 0 50px 0;
+}
+
+section#graphic p {
+	font-size: 160%;
+}
+
+/*Resume*/
+
+section#resume {
+	padding: 85px 0 20px 0;
+	text-align: center;
+}
+
+section#resume h2 {
+	font-size: 160%;
+	margin: 0 0 35px 0;
+}
+
+section#resume h2 span {
+}
+
+
+section#resume img {
+	border: 1px solid #eee;
+	margin: 0;
+}
+
+ul.enlarge {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ul.enlarge li {
+	display: inline-block;
+	position: relative;
+	z-index: 0;
+	margin: 10px 0px 40px 20px;
+}
+
+ul.enlarge span {
+	position: absolute;
+	left: -9999px;
+	padding: 10px;
+	background: #eae9d4;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+	box-shadow: 0 0 20px rgba(0,0,0, .75);
+	border-radius: 8px;
+	font-size: .9em;
+	text-align: center;
+	color: #495a62;
+}
+
+ul.enlarge img {
+	background-color: #eae9d4;
+	padding: 6px;
+	-webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+	-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+	box-shadow: 0 0 6px rgba(132,132,132, .75);
+	border-radius: 4px;
+}
+
+ul.enlarge li:hover {
+	z-index: 50;
+	cursor: pointer;
+}
+
+ul.enlarge li:hover span {
+	top: -300px;
+	left: -200px;
+}
+
+ul.enlarge span img {
+	padding: 2px;
+	background-color: #ccc;
+}
+
+
+/* Footer */
+
+footer {
+	background: #3c3c3c;
+	box-shadow: 0 -60px 0 0 #363636 inset;
+	clear: both;
+	margin-top: 80px;
+	padding: 85px 0 0 0;
+	text-align: center;
+}
+
+footer a {
+	background: url('icons.png') no-repeat left center;
+	background-size: auto 100%;
+	position: relative;
+	display: inline-block;
+	height: 30px;
+	opacity: 0.5;
+	margin: 0 20px;
+	text-align: left;
+	text-indent: -9999px;
+	width: 40px;
+}
+
+footer a:hover {
+	opacity: 0.8;
+}
+
+footer a#twitter {
+	background-position: -40px 0;
+}
+footer a#facebook {
+	background-position: -80px 0;
+}
+
+footer div.container div {
+	color: #888;
+	font-size: 90%;
+	margin-top: 85px;
+	padding: 15px 0;
+}
+
+footer div.container div span {
+	background: url('icons.png') no-repeat center center;
+	background-size: 100% auto;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px 0 0;
+	opacity: 0.3;
+	height: 24px;
+	width: 20px;
+}
+
+footer div.container div a {
+	background: transparent;
+	color: #888;
+	display: inline;
+	opacity: 1;
+	margin: 0;
+	text-indent: 0;
+}
+
+footer div.container div a:hover {
+	color: #bbb;
+}
